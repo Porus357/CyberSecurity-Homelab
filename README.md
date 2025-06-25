@@ -23,13 +23,15 @@ Welcome to a **hands-on cybersecurity homelab** simulating a real-world enterpri
 | **pfSense**      | Virtual firewall/router for **network segmentation** and **traffic control** |
 | **Security Onion** | SIEM for **real-time monitoring** and **threat detection**  |
 | **Kali Linux**   | **Attacker machine** for simulated offensive operations      |
-| **Ubuntu**       | Admin & victim systems, target for attacks and management    |
+| **Ubuntu**       | Admin system for  management                               |
+| **Windows XP**   | victim systems, target for attacks    |
 
 ---
 
 ## 📡 **Network Topology**
 
-![Network Topology](https://github.com/user-attachments/assets/87b0ad5e-78b3-46e4-8b92-daba0c0911ac)
+![ZLDDRvj04BqZyHz6NDeSR0TSLScb2dAfQoKuaI4VLUp36a_SbPTTj2noKDN_tk7BWbHHosttlPdtvkrmbHkcJP4AspBS28HPkKMTOr9eRahuhb8KR0iZMA8vAds0M6LAg7rfMxQL7xZCc6Of22xHb1c2qkQdgZ2DYM5oJnsTx2L2cIDyungFJ8YrV5wfmg2UFDpuIvWpGzVbnW6MGyVzPL](https://github.com/user-attachments/assets/84c635ca-c20b-474a-b54d-b7bf4379c6d4)
+
 
 - **Isolated VLANs** for segmentation
 - Central monitoring via Security Onion
