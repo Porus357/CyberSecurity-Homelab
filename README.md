@@ -18,7 +18,7 @@ Ubuntu – Used both as an administrator and victim system.
 
 📡 Network Topology
 
-https://github.com/Porus357/CyberSecurity-Homelab/blob/main/images/network%20topology.png
+![network topology](https://github.com/user-attachments/assets/87b0ad5e-78b3-46e4-8b92-daba0c0911ac)
 
 🛡️ Simulation Scenarios
 
