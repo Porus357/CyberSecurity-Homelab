@@ -1,67 +1,87 @@
-**Cybersecurity Homelab Project**
+# 🛡️ **Cybersecurity Homelab Project**
 
-Completion Date: February 2024 
-Project Type: Hands-on Simulation (No Code)
-Tools Used: pfSense, Security Onion, Kali Linux, Ubuntu
+> **Completion Date:** _February 2024_  
+> **Project Type:** _Hands-on Simulation (No Code)_  
+> **Tools Used:** `pfSense` • `Security Onion` • `Kali Linux` • `Ubuntu`
 
-🔍 ***Overview***
+---
 
-This homelab project was designed to simulate a real-world cybersecurity environment where attacks and defense mechanisms can be practiced safely. The environment includes both offensive and defensive tools configured in a virtualized setup.
+## 🔍 **Overview**
 
-🧰 ***Tools and Setup***
+Welcome to a **hands-on cybersecurity homelab** simulating a real-world enterprise environment—built for practicing both offensive and defensive techniques, all in a safe, isolated setup.
 
-pfSense – Used as a virtual firewall/router for network segmentation and traffic control.
+- **Simulate attacks** and **test defenses** without risk.
+- **Experiment** with modern cybersecurity tools and workflows.
+- **Ideal for learning, practicing, and refining skills.**
 
-Security Onion – Deployed as a SIEM for real-time monitoring and threat detection.
+---
 
-Kali Linux – Offensive attacker machine for carrying out simulated attacks.
+## 🧰 **Tools & Setup**
 
-Ubuntu – Used both as an administrator and victim system.
+| Tool             | Purpose                                                       |
+|------------------|--------------------------------------------------------------|
+| **pfSense**      | Virtual firewall/router for **network segmentation** and **traffic control** |
+| **Security Onion** | SIEM for **real-time monitoring** and **threat detection**  |
+| **Kali Linux**   | **Attacker machine** for simulated offensive operations      |
+| **Ubuntu**       | Admin & victim systems, target for attacks and management    |
 
-📡 ***Network Topology***
+---
 
-![network topology](https://github.com/user-attachments/assets/87b0ad5e-78b3-46e4-8b92-daba0c0911ac)
+## 📡 **Network Topology**
 
-🛡️ ***Simulation Scenarios***
+![Network Topology](https://github.com/user-attachments/assets/87b0ad5e-78b3-46e4-8b92-daba0c0911ac)
 
-Detected port scans and suspicious network behavior via Security Onion
+- **Isolated VLANs** for segmentation
+- Central monitoring via Security Onion
+- Simulated inbound/outbound traffic
 
-Configured firewall rules and VLAN segmentation using pfSense
+---
 
-Demonstrated lateral movement detection
+## 🛠️ **Simulation Scenarios**
 
-Exploited a vulnerable Windows target using Metasploit's windows/smb/ms08_067_netapi module
+- 🚨 _Detected port scans and suspicious network behavior via Security Onion_
+- 🔥 _Configured firewall rules & VLANs with pfSense_
+- 🕵️ _Demonstrated lateral movement detection_
+- 💀 _Exploited vulnerable Windows target using Metasploit (MS08-067)_
 
-🎥 ***Project Videos***
+---
 
-The following video resources are available in the video/ folder:
+## 🎥 **Project Videos**
 
-firewall_configuration.mp4 – pfSense firewall rules and VLAN setup
+Explore hands-on demos in the [`video/`](videos/) folder:
 
-lab_simulation.mp4 – End-to-end attack simulation and detection demo
+- **firewall_configuration.mp4**  
+  _pfSense firewall rules and VLAN setup_
 
-📄 ***Documentation***
+- **lab_simulation.mp4**  
+  _End-to-end attack simulation and detection demo_
 
-More details can be found in the docs/ folder:
+---
 
-configuration_notes.md – VLAN layout and pfSense firewall configuration
+## 📄 **Documentation**
 
-attack_scenarios.md – Description of attacks, including MS08-067 exploitation
+Find detailed documentation in the [`docs/`](docs/) folder:
 
-tools_used.md – Toolchain and version information
+- **configuration_notes.md** — _VLAN layout, pfSense firewall config_
+- **attack_scenarios.md** — _Attack walkthroughs (e.g., MS08-067)_
+- **tools_used.md** — _Toolchain & version info_
 
-📌 ***Key Outcomes***
+---
 
-Understood real-world detection mechanisms
+## 📌 **Key Outcomes**
 
-Practiced safe exploitation and detection techniques
+- ✔️ _Real-world detection mechanisms explored_
+- ✔️ _Safe exploitation + detection techniques practiced_
+- ✔️ _Reusable test lab for ongoing learning_
 
-Built a reusable test lab for continuous practice
+---
 
-🧠 ***Skills Demonstrated***
+## 🧠 **Skills Demonstrated**
 
-Network segmentation and hardening
+- **Network segmentation & hardening**
+- **IDS/IPS deployment**
+- **Attack simulation & threat detection**
 
-IDS/IPS deployment
+---
 
-Attack simulation and threat detection
+> *Level up your cybersecurity skills with this practical, reusable homelab!*
